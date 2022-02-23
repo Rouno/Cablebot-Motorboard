@@ -1,0 +1,19 @@
+motorboard:0 position 2000;1 speed 1300;2 pwm 450|gimbalboard:gimbalboard data|motorboard_cfg:Present_Position;Present_Velocity;Present_Load
+
+motorboard:2 Goal_Position 50;
+
+motorboard:2 Goal_Velocity 100
+
+motorboard_cfg:Present_Position;
+
+motorboard_cfg:Goal_Position
+
+motorboard_cfg:get_dynamixelIDs
+
+motorboard_cfg:set_position_mode
+
+motorboard_cfg:set_speed_mode
+
+motorboard_cfg:set_home_offset;Present_Position
+
+motorboard_cfg:no_torque
